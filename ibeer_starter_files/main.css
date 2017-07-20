@@ -66,8 +66,7 @@ img{
         - Add a background image "header-img.jpg"
         make sure that the path to the image is correct
     */
-background-image: url(/Users/lacro_000/Documents/Projects/b52ad1ce-ibeer_starter_files/ibeer_starter_files/img/header-img.jpg);
-
+    background-image: url(/Users/lacro_000/Documents/Projects/b52ad1ce-ibeer_starter_files/ibeer_starter_files/img/header-img.jpg);
     background-size: cover;
     background-position: right bottom;
 }
@@ -194,6 +193,11 @@ article img{
         - Float article images to the right
         and match sizes and spacing to the mockup
     */
+    float: right;
+    width:230pt;
+    margin-left: 50pt;
+    margin-right: 5pt;
+
 }
 article footer p{
     /*
@@ -201,6 +205,8 @@ article footer p{
         - Style the article footer
         HINT: Look to the article header;
     */
+   clear:both;
+
 }
 #site-footer{
 
