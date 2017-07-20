@@ -137,10 +137,9 @@ main{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
-    width:450pt;
+    width:500pt;
     float:left;
-
-
+    height:1780pt;
 }
 aside{
     padding: 20px;
@@ -152,12 +151,9 @@ aside{
         - Use relative positioning to bump this upward
     */
     /*display:flex;*/
-    width: 240pt;
+    width: 190pt;
     float: right;
-
-
-
-
+    height:1724pt;
 }
 aside h3{
     text-align: center;
