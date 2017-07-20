@@ -52,8 +52,8 @@ img{
     justify-content:space-around;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: -20pt;
-    width:800pt;
+    margin-left: -30pt;
+    width:820pt;
 
 
 
@@ -71,6 +71,9 @@ img{
     background-image: url(/Users/lacro_000/Documents/Projects/b52ad1ce-ibeer_starter_files/ibeer_starter_files/img/header-img.jpg);
     background-size: cover;
     background-position: right bottom;
+    height:200pt;
+    z-index:1;
+
 }
 #site-header div h1,
 #site-header div h3{
@@ -140,7 +143,11 @@ main{
     */
     width:500pt;
     float:left;
-    height:1780pt;
+    height:1600pt;
+    z-index:5;
+    top: -60px;
+    position: relative;
+
 }
 aside{
     padding: 20px;
@@ -154,7 +161,11 @@ aside{
     /*display:flex;*/
     width: 190pt;
     float: right;
-    height:1724pt;
+    height:1600pt;
+    z-index:100;
+    /*margin-top: -100px;*/
+    top: -60px;
+    position: relative;
 }
 aside h3{
     text-align: center;
@@ -207,8 +218,19 @@ article footer p{
         - Style the article footer
         HINT: Look to the article header;
     */
-  align-content: center;
+  /*align-content: center;
+  border-top: 1px solid black;
+  text-align:center;
+  width: 100%;*/
 
+
+}
+
+footer{
+  margin-top:50px;
+  border-top: 1px solid black;
+  text-align:center;
+  width: 100%;
 }
 #site-footer{
 
@@ -217,4 +239,6 @@ article footer p{
         TODO:
         - Style the site footer
     */
+    float: right;
+
 }
