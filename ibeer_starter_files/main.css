@@ -98,7 +98,7 @@ img{
         TODO:
         - Use the script font: 'Dancing Script' font this text
     */
-    font: Dancing Script;
+    font-family: "Dancing Script";
 }
 #main-navigation{
     background: #444;
