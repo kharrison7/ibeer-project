@@ -16,7 +16,8 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
-}
+
+  }
 h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
     margin-top: 0;
@@ -136,6 +137,10 @@ main{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
+    width:450pt;
+    float:left;
+
+
 }
 aside{
     padding: 20px;
@@ -147,6 +152,9 @@ aside{
         - Use relative positioning to bump this upward
     */
     /*display:flex;*/
+    width: 240pt;
+    float: right;
+
 
 
 
