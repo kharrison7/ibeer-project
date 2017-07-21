@@ -248,7 +248,14 @@ footer{
   /*This adjusts the footer text color and orientation.*/
   text-align:center;
   width: 100%;
+  color: black;
+}
+
+footer > span{
+  text-align:center;
+  width: 100%;
   color: white;
+
 }
 #site-footer{
 
