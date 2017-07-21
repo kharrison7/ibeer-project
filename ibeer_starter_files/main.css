@@ -118,6 +118,7 @@ img{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 50pt;
     padding: 10px 20px;
 
     /*
@@ -267,7 +268,7 @@ footer > span{
 
     /*This makes the footer black and moves it to the bottom*/
     height: 50pt;
-    background: black;
+    background: (68,68,68);
     margin-top:1620pt;
 
 }
